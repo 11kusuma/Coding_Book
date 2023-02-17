@@ -1,0 +1,7 @@
+l=[]
+n=int(input("enter no of words:"))
+for i in range(0,n):
+    name=input()
+    l.append(name)
+l.sort()
+print(l)
