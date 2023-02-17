@@ -1,0 +1,7 @@
+def thedecimal(n):
+    if n==0:
+        return "INTEGER"
+    return n-int(n)
+
+r=thedecimal(float(input()))
+print(r)
