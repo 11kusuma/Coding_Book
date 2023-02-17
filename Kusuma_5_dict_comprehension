@@ -1,0 +1,7 @@
+l1=[]
+l2=[]
+for i in range(100,160,10):
+    l1.append(i)
+    l2.append(i/100)
+d={k:v for (k,v) in zip(l1,l2)}
+print(d)
